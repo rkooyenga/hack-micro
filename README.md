@@ -4,7 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/7e27a4e0-6953-48b4-8fea-4b9a083d5325)
 
-> 🧠 *"It's like CodePen, if CodePen booted in 100ms, ran locally, didn't phone home, let you create-edit-import-export without login, and let you hijack other websites while sipping coffee."*
+> 🧠 *"It's like CodePen, if CodePen booted in 100ms, ran locally, didn't phone home, let you create-edit-import-export without login, and let you hijack other websites while eating breakfast."*
 
 ---
 
@@ -14,7 +14,7 @@ HackMicro is a **browser-based micro IDE** that:
 
 * Runs as a **bookmarklet** (no install required — like, really none)
 * Imports, executes, and exports HTML/JS/CSS without touching the `<head>`
-* Has a built-in **scraper proxy**: type any URL and see it rendered locally
+* Has a built-in **scraper**: type a URL and see it rendered locally
 * Lets you tweak and re-save the result as a portable HTML one-pager
 
 Think: DevTools console meets mini VSCode meets a very polite MITM proxy.
@@ -25,8 +25,6 @@ Think: DevTools console meets mini VSCode meets a very polite MITM proxy.
 
 **🔍 “Slurp Mode” — Built-in scraper**
 Paste any URL and HackMicro pulls down the HTML, rewrites it to run locally, and lets you modify or export it. Great for remixing, debugging, or archiving pages.
-
-> *Why "View Source" when you can hijack the entire site in one click?*
 
 **📦 All-in-one, one-page HTML exports**
 
@@ -71,7 +69,7 @@ Roadmap includes:
 * ✅ JS version (done)
 * ✅ Bookmarklet
 * 🧪 Scraper proxy support
-* 🧠 Header-aware imports/exports
+* 🧠 Head-aware imports/exports
 * 🕹️ Web App + PWA
 * 🧩 Chrome Extension
 
@@ -79,8 +77,8 @@ Roadmap includes:
 
 ### 🧪 Try It Now
 
-> Drag this to your bookmarks bar: **\[HackMicro]\(javascript:/* bookmarklet here */)**
-> (Real link soon — GitHub doesn't allow direct bookmarklets inline.)
+> Drag this to your bookmarks bar: **\[HackMicro]\(javascript:/* bookmarklet or DataURI here */)**
+> [site](https://about:blank)
 
 Or run the script from console in any page to inject the editor.
 
