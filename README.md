@@ -1,6 +1,6 @@
 # 🚀 HackMicro
 
-**A lightning-fast, zero-install web IDE for building, remixing, and slurping the web — straight from your browser.**
+**A lightning-fast, zero-install, no-login, web IDE for building, remixing, and slurping the web**
 
 ![image](https://github.com/user-attachments/assets/7e27a4e0-6953-48b4-8fea-4b9a083d5325)
 
