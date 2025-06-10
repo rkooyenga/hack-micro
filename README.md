@@ -1,49 +1,53 @@
 # 🚀 HackMicro
 
-**A lightning-fast, zero-install, no-login, web IDE for building, remixing, and slurping the web**
+**A lightning-fast, zero-install, no-login, web IDE for building and remixing the web**
 
 ![image](https://github.com/user-attachments/assets/7e27a4e0-6953-48b4-8fea-4b9a083d5325)
 
-> 🧠 *"It's like CodePen, if CodePen booted in 100ms, ran locally, didn't phone home, let you create-edit-import-export without login, and let you hijack other websites while eating breakfast."*
+> 🧠 *"It's like CodePen, if CodePen booted in 100ms, ran locally, didn't phone home, let you create-edit-import-export without login, and let you slurp up websites for breakfast."*
 
 ---
 
 ### 🛠️ What It Is
 
-HackMicro is a **browser-based micro IDE** that:
+HackMicro is a extremely lightweight and simple **browser-based micro IDE** that:
 
 * Runs as a **bookmarklet** (no install required — like, really none)
-* Imports, executes, and exports HTML/JS/CSS without touching the `<head>`
+* Imports, executes, simple web apps
 * Has a built-in **scraper**: type a URL and see it rendered locally
 * Lets you tweak and re-save the result as a portable HTML one-pager
-
-Think: DevTools console meets mini VSCode meets a very polite MITM proxy.
 
 ---
 
 ### ✨ Killer Features
 
 **🔍 “Slurp Mode” — Built-in scraper**
-Paste any URL and HackMicro pulls down the HTML, rewrites it to run locally, and lets you modify or export it. Great for remixing, debugging, or archiving pages.
+Provide a URL and HackMicro will attempt to scrape it without you having to view source the other site and one by one copy the contents of or the file refernces of all resources. It pulls down the HTML, rewrites it to run locally, and lets you modify or export it. Great for remixing, debugging, or archiving pages. 
 
 **📦 All-in-one, one-page HTML exports**
 
 * No setup required
 * Injects your code into the page safely
-* Strips duplicate `<head>` boilerplate on import/export
-* Executable in other apps or frameworks — stays clean on round-trips
+* Can add or strip some duplicate `<head>` boilerplate on import/export
+* Executable in other apps or frameworks — stays clean on round-trips with one page exports
 
 **🪶 Lightweight but smart**
 
-* Toggle layout panels instantly with click/hold gestures
+* Codepanels size themselves in an intuitive fashion that feels natural
+* Toggle layout pattern for coding, rendering or both is uniquely simple and intuitive with click/hold gestures
 * Optional dropdown for title, base URL, and extra head tags
-* Clean minimal UI — feels like writing on a napkin with autocomplete
+* Clean minimal UI laid out in a sensible natural way. Stripped down not overpacked, optimized for editing or creating smaller projects.
+
+* pro tip did your ChatGPT just give you a page or css or js snippet you need to test or evaluate? Absolutely perfect use case for HackMicro
 
 **⚙️ Runs everywhere**
 
 * ✅ Bookmarklet (Data URI, no install)
 * 🧱 Soon: Web App, PWA, Chrome Extension
+* ⏱️ Loads light
 * ⏱️ Loads fast
+* ⏱️ Loads fast
+* ⏱️ Did we say it's light and fast?
 
 ---
 
